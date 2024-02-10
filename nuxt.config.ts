@@ -10,4 +10,7 @@ export default defineNuxtConfig({
     "vue3-carousel-nuxt",
     "@nuxtjs/seo",
   ],
+  colorMode: {
+    classSuffix: ''
+  }
 });

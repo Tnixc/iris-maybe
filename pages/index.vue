@@ -1,5 +1,6 @@
 <script setup>
 const { locale } = useI18n();
+const colorMode = useColorMode();
 </script>
 
 <template>
@@ -21,5 +22,19 @@ const { locale } = useI18n();
       </select>
       <p>{{ $t("top.title") }}</p>
     </form>
+    <div>
+      <h1>Color mode: {{ $colorMode.value }}</h1>
+      <select v-model="$colorMode.preference">
+        <option value="system">System</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
+    <div class="dark:bg-black dark:text-white bg-zinc-200 text-black">
+      Hello word
+    </div>
   </div>
 </template>
+
+<style>
+</style>
