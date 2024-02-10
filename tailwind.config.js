@@ -2,8 +2,8 @@ module.exports = {
   darkMode: "class",
   theme: {
       colors: {
-        primary: "#AFAFFF",
-        secondary: "#CCDDCC",
+        primary: 'rgb(var(--color-primary) / <alpha-value>)',
+        secondary: 'rgb(var(--color-secondary) / <alpha-value>)',
       },
     plugins: [],
   },
