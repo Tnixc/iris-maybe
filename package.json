@@ -15,6 +15,7 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@nuxtjs/seo": "^2.0.0-rc.8",
     "@nuxtjs/i18n": "^8.1.0",
     "@nuxtjs/color-mode": "^3.3.2",
     "nuxt-icon": "^0.6.8",

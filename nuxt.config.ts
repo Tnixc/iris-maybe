@@ -8,5 +8,6 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/image",
     "vue3-carousel-nuxt",
+    "@nuxtjs/seo",
   ],
 });
