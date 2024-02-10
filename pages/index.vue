@@ -1,6 +1,5 @@
 <script setup>
 const { locale } = useI18n();
-const colorMode = useColorMode();
 </script>
 
 <template>
@@ -30,7 +29,7 @@ const colorMode = useColorMode();
         <option value="dark">Dark</option>
       </select>
     </div>
-    <div class="dark:bg-black dark:text-white bg-zinc-200 text-black">
+    <div class="bg-primary">
       Hello word
     </div>
   </div>

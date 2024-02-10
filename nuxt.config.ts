@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  css: ["@/global.css"],
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
@@ -11,6 +12,22 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
   ],
   colorMode: {
-    classSuffix: ''
-  }
+    classSuffix: "",
+  },
+  i18n: {
+    locales: [
+      { code: "cs", name: "Czech" },
+      { code: "de", name: "German" },
+      { code: "en", name: "English" },
+      { code: "en_US", name: "English (US)" },
+      { code: "es", name: "Spanish" },
+      { code: "fr", name: "French" },
+      { code: "nl", name: "Dutch" },
+      { code: "pt_BR", name: "Portuguese (Brazil)" },
+      { code: "ru", name: "Russian" },
+      { code: "sv", name: "Swedish" },
+      { code: "zh_Hans", name: "Chinese (Simplified)" },
+      { code: "zh_Hant", name: "Chinese (Traditional)" },
+    ],
+  },
 });
