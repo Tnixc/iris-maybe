@@ -1,15 +1,25 @@
 <script setup>
-const { locale } = useI18n()
+const { locale } = useI18n();
 </script>
 
 <template>
   <div>
     <form>
       <select v-model="locale">
-        <option value="en">en</option>
-        <option value="fr">fr</option>
+        <option value="cs">Czech</option>
+        <option value="de">German</option>
+        <option value="en">English</option>
+        <option value="en_US">English (US)</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="nl">Dutch</option>
+        <option value="pt_BR">Portuguese (Brazil)</option>
+        <option value="ru">Russian</option>
+        <option value="sv">Swedish</option>
+        <option value="zh_Hans">Chinese (Simplified)</option>
+        <option value="zh_Hant">Chinese (Traditional)</option>
       </select>
-      <p>{{ $t('top.title') }}</p>
+      <p>{{ $t("top.title") }}</p>
     </form>
   </div>
 </template>
