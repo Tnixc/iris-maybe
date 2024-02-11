@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
   ],
   tailwindcss: {
-    cssPath: "@/assets/global.css"
+    cssPath: "@/assets/global.css",
   },
   colorMode: {
     classSuffix: "",

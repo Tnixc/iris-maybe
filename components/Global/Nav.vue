@@ -28,10 +28,8 @@ const { locale } = useI18n();
         <option value="dark">Dark</option>
       </select>
     </div>
-    <div class="bg-primary p-20 border-2 border-edge">
-    </div>
+    <div class="bg-primary border-2 border-edge p-20"></div>
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
