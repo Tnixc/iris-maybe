@@ -1,6 +1,5 @@
 <script setup>
 const colorMode = useColorMode();
-const { locale } = useI18n();
 </script>
 <template>
   <section class="relative flex flex-col aspect-video md:aspect-[3/1] overflow-hidden border-b">
