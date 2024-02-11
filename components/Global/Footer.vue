@@ -54,7 +54,7 @@ const currentLocale = computed(() => {
         <DropdownMenu>
           <DropdownMenuTrigger class="h-fit w-fit bg-accent p-2 flex gap-2 items-center px-3">
             <Icon name="ph:translate" class="text-text aspect-square text-xl" />
-            <span>{{ currentLocale.name }}</span>
+            <span class="select-none">{{ currentLocale.name }}</span>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuItem v-for="locale in availableLocales" :key="locale.code">
