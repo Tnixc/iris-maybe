@@ -76,3 +76,6 @@
     @apply bg-background text-foreground;
   }
 }
+::selection{
+  @apply bg-blue-600 text-white;
+}
