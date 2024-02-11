@@ -10,7 +10,12 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "vue3-carousel-nuxt",
     "@nuxtjs/seo",
+    "shadcn-nuxt",
   ],
+  shadcn: {
+    prefix: '',
+    componentDir: './components/ui'
+  },
   tailwindcss: {
     cssPath: "@/assets/global.css",
   },
