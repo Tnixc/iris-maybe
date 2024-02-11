@@ -8,7 +8,7 @@ function setTheme(theme) {
 </script>
 <template>
   <nav class="flex justify-center fixed top-0 right-0 left-0">
-    <div class="flex w-full max-w-7xl items-center bg-secondary">
+    <div class="flex w-full max-w-7xl items-center bg-secondary/50 backdrop-blur-lg">
       <NuxtLink class="flex items-center gap-2 bg-secondary p-1" to="/">
         <NuxtImg src="/images/logos/iristrans.webp" width="42" height="42" />
         <h1 class="font-mono md:text-2xl">IRIS SHADERS</h1>
@@ -30,7 +30,7 @@ function setTheme(theme) {
       </NuxtLink>
       <DropdownMenu>
         <DropdownMenuTrigger
-          class="flex h-full select-none items-center gap-2 p-2 px-4"
+          class="flex h-full select-none items-center gap-2 p-2 px-4 bg-secondary"
         >
           <Icon
             :name="colorMode.value === 'light' ? 'ph:sun-bold' : 'ph:moon-bold'"

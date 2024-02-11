@@ -1,5 +1,7 @@
 <template>
   <Nav />
-  <h1>{{ $t('top.title')}}</h1>
+  <Container>
+    <h1>{{ $t("top.title") }}</h1>
+  </Container>
   <Footer />
 </template>
