@@ -13,6 +13,7 @@ const { locale } = useI18n();
           ? '/images/backgrounds/iris-bkg-dark.webp'
           : '/images/backgrounds/iris-bkg-light.webp'
       "
+      alt="Screen with shaders"
     />
     <div class="flex flex-col">
       <div class="relative flex-grow overflow-hidden">

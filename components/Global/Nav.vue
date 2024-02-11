@@ -10,7 +10,7 @@ function setTheme(theme) {
   <nav class="flex justify-center fixed top-0 right-0 left-0 z-50">
     <div class="flex w-full max-w-7xl items-center bg-secondary/70 backdrop-blur-lg ">
       <NuxtLink class="flex items-center gap-2 bg-secondary p-1" :to="`/${locale}/`">
-        <NuxtImg src="/images/logos/iristrans.webp" width="42" height="42" />
+        <NuxtImg src="/images/logos/iristrans.webp" width="42" height="42" alt="iris logo" />
         <h1 class="font-mono md:text-2xl pr-2">IRIS SHADERS</h1>
       </NuxtLink>
       <div class="flex-grow"></div>

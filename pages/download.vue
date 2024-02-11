@@ -1,3 +1,12 @@
+<script setup>
+import i18n from '@/i18n.config'
+const {locale}  = useI18n();
+let t = i18n('download').messages[locale.value].download.downloadiris;
+t = t.toString().replace(" - IrisShaders","")
+useHead({
+  title: t,
+})
+</script>
 <template>
   <Nav />
   <Container>
