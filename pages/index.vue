@@ -19,7 +19,6 @@ const { locale } = useI18n();
         <option value="zh_Hans">Chinese (Simplified)</option>
         <option value="zh_Hant">Chinese (Traditional)</option>
       </select>
-      <p>{{ $t("top.title") }}</p>
     </form>
     <div>
       <h1>Color mode: {{ $colorMode.value }}</h1>
@@ -30,7 +29,8 @@ const { locale } = useI18n();
       </select>
     </div>
     <div class="bg-primary p-20 border-2 border-edge">
-      
+      <h1 class="text-text text-4xl">{{ $t("top.title") }}</h1>
+      <p class="text-subtext text-lg">{{ $t("top.subheading") }}</p>
     </div>
   </div>
 </template>
