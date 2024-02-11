@@ -1,5 +1,9 @@
+<script setup>
+const { locale } = useI18n();
+</script>
 <template>
-  <section class="border-b-2 p-10">
+  <!-- pretter-ignore -->
+  <section class="border-b-2 md:p-10 p-3">
     <div class="flex flex-wrap items-end justify-between gap-4 border-x border-t p-10" >
       <h1 class="text-4xl">{{ $t("top.heading2") }}</h1>
       <h2 class="text-2xl text-muted-foreground">
@@ -8,31 +12,38 @@
     </div>
     <div class="grid md:grid-cols-2 md:grid-rows-2 border ">
       <NuxtImg
+        width="2560"
+        height="1440"
         class="aspect-video border"
         src="/images/screenshots/mainscreenshot1.webp"
         alt="Main screenshot 1"
       />
       <div class="border h-full p-10 flex flex-col">
         <h1 class="text-2xl pb-5">{{$t('top.image1')}}</h1>
-        <!-- pretter-ignore -->
         <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/<span class='text-span-2'><br>.*./,"")}}</p>
-        <!-- pretter-ignore -->
-        <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/.*.<span class='text-span-2'><br>/,"").replace("</span>","")}}</p>
         <div class="flex-grow"></div>
+        <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/.*.<span class='text-span-2'><br>/,"").replace("</span>","")}}</p>
       </div>
-      <div class="border h-full p-10">
+      <div class="border h-full p-10 flex flex-col">
         <h1 class="text-2xl pb-5">{{$t('top.image2')}}</h1>
-        <!-- pretter-ignore -->
         <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/<br><span class='text-span-2'>.*./,"")}}</p>
           <div class="flex-grow"></div>
-        <!-- pretter-ignore -->
           <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/.*.<br><span class='text-span-2'>/,"").replace("</span>","")}}</p>
       </div>
       <NuxtImg
+        width="2560"
+        height="1440"
         class="aspect-video border"
         src="/images/screenshots/mainscreenshot2.webp"
         alt="Main screenshot 2"
       />
     </div>
+    <NuxtLink
+      class="flex h-fit items-center gap-2 border-b border-r border-t font-mono text-lg bg-accent hover:underline p-4 px-10"
+      :to="`/${locale}/about`"
+    >
+    {{ $t('common.about') }}
+    <Icon name="ph:arrow-right-bold" />
+  </NuxtLink>
   </section>
 </template>

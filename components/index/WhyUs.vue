@@ -1,5 +1,5 @@
 <template>
-  <section class="border-b-2 p-10">
+  <section class="border-b-2 md:p-10 p-3">
     <div class="flex flex-wrap gap-4 justify-between items-end pb-5 px-1">
     <h1 class="text-4xl">{{ $t("top.heading1") }}</h1>
     <h2 class="text-muted-foreground text-2xl">{{$t('top.subheading1')}}</h2>
