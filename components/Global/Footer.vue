@@ -11,7 +11,7 @@ const currentLocale = computed(() => {
 </script>
 
 <template>
-  <footer class="w-full max-w-5xl bg-secondary p-10 mx-auto ">
+  <footer class="w-full max-w-7xl bg-secondary p-10 mx-auto ">
     <div class="flex gap-10 flex-wrap">
       <div class="flex min-w-fit flex-col gap-2">
         <a href="https://github.com/IrisShaders/Iris" target="_blank" class="hover:underline">

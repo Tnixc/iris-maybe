@@ -8,7 +8,7 @@ function setTheme(theme) {
 </script>
 <template>
   <nav class="flex justify-center fixed top-0 right-0 left-0">
-    <div class="flex w-full max-w-5xl items-center bg-secondary">
+    <div class="flex w-full max-w-7xl items-center bg-secondary">
       <NuxtLink class="flex items-center gap-2 bg-secondary p-1" to="/">
         <NuxtImg src="/images/logos/iristrans.webp" width="42" height="42" />
         <h1 class="font-mono md:text-2xl">IRIS SHADERS</h1>
