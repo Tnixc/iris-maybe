@@ -11,7 +11,7 @@ function setTheme(theme) {
     <div class="flex w-full max-w-7xl items-center bg-secondary/70 backdrop-blur-lg ">
       <NuxtLink class="flex items-center gap-2 bg-secondary p-1" :to="`/${locale}/`">
         <NuxtImg src="/images/logos/iristrans.webp" width="42" height="42" />
-        <h1 class="font-mono md:text-2xl">IRIS SHADERS</h1>
+        <h1 class="font-mono md:text-2xl pr-2">IRIS SHADERS</h1>
       </NuxtLink>
       <div class="flex-grow"></div>
       <NuxtLink
