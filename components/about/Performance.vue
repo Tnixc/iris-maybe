@@ -51,6 +51,8 @@
           <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
             src="/images/logos/sodium1x.webp"
             alt="Sodium mod"
+            width="200"
+            height="200"
             class="mx-auto aspect-square"
           />
         </div>

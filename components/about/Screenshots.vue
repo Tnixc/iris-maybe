@@ -180,8 +180,8 @@ onMounted(() => {
             </p>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious class="translate-x-4 scale-125" />
-        <CarouselNext class="-translate-x-4 scale-125" />
+        <CarouselPrevious class="translate-x-3 rounded-none scale-125" />
+        <CarouselNext class="-translate-x-3 rounded-none scale-125" />
       </Carousel>
       <div class="py-2 text-center text-sm text-muted-foreground">
         Screenshot {{ state.current }} of {{ state.totalCount }}
