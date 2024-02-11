@@ -15,11 +15,11 @@ const { locale } = useI18n();
       "
     />
     <div class="flex-grow"></div>
-    <div class="relative z-10 p-10 bg-background/80 backdrop-blur-md border">
-      <h1 class="text-5xl font-bold ">
+    <div class="relative z-10 p-10 bg-gradient-to-b from-background/50 to-background backdrop-blur-md border">
+      <h1 class="text-5xl font-bold pb-2">
         {{ $t('about.heading') }}
       </h1>
-      <p class="text-xl ">
+      <p class="text-xl text-muted-foreground ">
         {{ $t('about.subheading') }}
       </p>
     </div>
