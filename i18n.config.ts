@@ -23,8 +23,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Co může Iris nabídnout",
         image1: "Stejné jako OptiFine",
         imagedesc1:
-          "Iris se snaží mít plnou podporu pro všechny minulé i současné balíčky shaderů OptiFine a počet balíčků podporovaných Irisem neustále rychle roste!",
-        imagecredit1: "Vyfotil IMS",
+          "Iris se snaží mít plnou podporu pro všechny minulé i současné balíčky shaderů OptiFine a počet balíčků podporovaných Irisem neustále rychle roste!<span class='text-span-2'><br>Vyfotil IMS</span>",
         image2: "Funguje se Sodium",
         imagedesc2:
           "Iris je kompatibilní s optimalizačními módy CaffeineMC jako je Sodium a Phosphor, což umožňuje úžasnou grafiku se stejnou nebo dokonce vyšší snímkovou frekvencí než ve vanille.<br><span class='text-span-2'>Vyfotil IMS</span>",
@@ -133,8 +132,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Das hat Iris zu bieten",
         image1: "OptiFine-Übereinstimmung",
         imagedesc1:
-          "Iris hat sich zum Ziel gesetzt, alle älteren und aktuellen OptiFine-Shaderpakete zu unterstützen, und die Anzahl der von Iris unterstützten Pakete wächst ständig und schnell!",
-        imagecredit1: "Screenshot von IMS",
+          "Iris hat sich zum Ziel gesetzt, alle älteren und aktuellen OptiFine-Shaderpakete zu unterstützen, und die Anzahl der von Iris unterstützten Pakete wächst ständig und schnell!<span class='text-span-2'><br>Screenshot von IMS</span>",
         image2: "Funktioniert mit Sodium",
         imagedesc2:
           "Iris ist mit den Optimierungsmods von CaffeineMC wie Sodium, Lithium und Phosphor kompatibel und ermöglicht so beeindruckende Grafiken mit vergleichbarer oder sogar besserer Performance als Vanilla-Minecraft.<br><span class='text-span-2'>Screenshot von IMS</span>",
@@ -243,8 +241,7 @@ export default defineI18nConfig(() => ({
         subheading2: "What Iris has to offer",
         image1: "OptiFine Parity",
         imagedesc1:
-          "Iris aims to have full support for all past and present OptiFine shader packs, and number of packs supported by Iris is constantly and rapidly growing!",
-        imagecredit1: "Screenshot by IMS, Kappa v5",
+          "Iris aims to have full support for all past and present OptiFine shader packs, and number of packs supported by Iris is constantly and rapidly growing!<span class='text-span-2'><br>Screenshot by IMS, Kappa v5</span>",
         image2: "Works with Sodium",
         imagedesc2:
           "Iris is compatible with CaffeineMC optimization mods such as Sodium and Phosphor, enabling stunning graphics at frames comparable to or even better than vanilla.<br><span class='text-span-2'>Screenshot by IMS, Nostalgia v4</span>",
@@ -352,8 +349,7 @@ export default defineI18nConfig(() => ({
         subheading2: "What Iris has to offer",
         image1: "OptiFine Parity",
         imagedesc1:
-          "Iris aims to have full support for all past and present OptiFine shader packs, and number of packs supported by Iris is constantly and rapidly growing!",
-        imagecredit1: "Screenshot by IMS, Kappa v5",
+          "Iris aims to have full support for all past and present OptiFine shader packs, and number of packs supported by Iris is constantly and rapidly growing!<span class='text-span-2'><br>Screenshot by IMS, Kappa v5</span>",
         image2: "Works with Sodium",
         imagedesc2:
           "Iris is compatible with CaffeineMC optimization mods such as Sodium and Phosphor, enabling stunning graphics at frames comparable to or even better than vanilla.<br><span class='text-span-2'>Screenshot by IMS, Nostalgia v4</span>",
@@ -461,8 +457,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Lo que Iris tiene que ofrecer",
         image1: "Paridad con OptiFine",
         imagedesc1:
-          "Iris apunta a tener soporte completo para todos los shaderpacks de OptiFine pasados y actuales, ¡y el número de packs soportados por Iris aumenta constantemente!",
-        imagecredit1: "Captura por Niko",
+          "Iris apunta a tener soporte completo para todos los shaderpacks de OptiFine pasados y actuales, ¡y el número de packs soportados por Iris aumenta constantemente!<span class='text-span-2'><br>Captura por Niko</span>",
         image2: "Funciona con Sodium",
         imagedesc2:
           "Iris es compatible con los mods de optimización de CaffeineMC, como Sodium y Phosphor, permitiendo gráficos impresionantes con FPS comparables o incluso mejores que en vanilla.<br><span class='text-span-2'>Captura por Guardian</span>",
@@ -569,8 +564,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Ce qu'Iris peut vous offrir",
         image1: "Concurrence avec OptiFine",
         imagedesc1:
-          "Iris vise à avoir un support complet pour tous les shaderpacks OptiFine passés et présents, et le nombre de packs supportés par Iris augmente constamment et rapidement !",
-        imagecredit1: "Capture d'écran par Niko",
+          "Iris vise à avoir un support complet pour tous les shaderpacks OptiFine passés et présents, et le nombre de packs supportés par Iris augmente constamment et rapidement !<span class='text-span-2'><br>Capture d'écran par Niko</span>",
         image2: "Compatible avec Sodium",
         imagedesc2:
           "Iris est compatible avec les mods d'optimisation CaffeineMC tels que Sodium et Phosphor, permettant des graphismes époustouflants et des images comparables ou même meilleures que Vanilla.<br><span class='text-span-2'>Capture d'écran par Guardian</span>",
@@ -680,8 +674,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Wat heeft Iris aan te bieden?",
         image1: "OptiFine Gelijkheid",
         imagedesc1:
-          "Iris streeft naar volledige ondersteuning voor alle oudere en huidige OptiFine shaderpacks, en het aantal packs dat door Iris wordt ondersteund, groeit voortdurend en snel!",
-        imagecredit1: "Screenshot door Niko",
+          "Iris streeft naar volledige ondersteuning voor alle oudere en huidige OptiFine shaderpacks, en het aantal packs dat door Iris wordt ondersteund, groeit voortdurend en snel!<span class='text-span-2'><br>Screenshot door Niko</span>",
         image2: "Werkt met Sodium",
         imagedesc2:
           "Iris werkt met CaffeineMC optimalisatie mods zoals Sodium en Phosphor, waardoor verbluffende graphics mogelijk zijn met frames die vergelijkbaar zijn met of zelfs beter zijn dan vanilla.<br><span class='text-span-2'>Screenshot door Guardian</span>",
@@ -790,8 +783,7 @@ export default defineI18nConfig(() => ({
         subheading2: "O que o Iris tem a oferecer",
         image1: "Paridade com OptiFine",
         imagedesc1:
-          "O Iris tem como objetivo suportar todas as shaders feitas para o OptiFine, até mesmo as antigas. E o número de shaders compatíveis não para de subir!",
-        imagecredit1: "Capturada por Niko",
+          "O Iris tem como objetivo suportar todas as shaders feitas para o OptiFine, até mesmo as antigas. E o número de shaders compatíveis não para de subir!<span class='text-span-2'><br>Capturada por Niko</span>",
         image2: "Funciona com o Sodium",
         imagedesc2:
           "O Iris é compatível com os mods de optimização do CaffeineMC, como Sodium e Phosphor, permitindo belos gráficos com FPS geralmente melhores que o Minecraft Vanilla.<br><span class='text-span-2'>Capturada por Guardian</span>",
@@ -901,8 +893,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Что может предложить Iris",
         image1: "Паритет с OptiFine",
         imagedesc1:
-          "Iris стремится иметь полную поддержку существовавших и существующих пакетов шейдеров OptiFine, и число шейдеров, поддерживаемых в Iris, стабильно и быстро растёт!",
-        imagecredit1: "Скриншот от IMS",
+          "Iris стремится иметь полную поддержку существовавших и существующих пакетов шейдеров OptiFine, и число шейдеров, поддерживаемых в Iris, стабильно и быстро растёт!<span class='text-span-2'><br>Скриншот от IMS</span>",
         image2: "Работает с Sodium",
         imagedesc2:
           "Iris совместим с модами оптимизации от CaffeineMC, такими как Sodium и Phosphor, обеспечивая потрясающую графику в кадрах, сравнимых с Vanilla, или даже лучше.<br><span class='text-span-2'>Скриншот от IMS</span>",
@@ -1012,8 +1003,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Det Iris har att erbjuda",
         image1: "Paritet med OptiFine",
         imagedesc1:
-          "Målet är att Iris ska vara kompatibelt med tidigare och nuvarande OptiFine shader-paket, och antalet paket som stödjs av Iris ökar snabbt och stadigt!",
-        imagecredit1: "Skärmbild av Niko",
+          "Målet är att Iris ska vara kompatibelt med tidigare och nuvarande OptiFine shader-paket, och antalet paket som stödjs av Iris ökar snabbt och stadigt!<span class='text-span-2'><br>Skärmbild av Niko</span>",
         image2: "Fungerar med Sodium",
         imagedesc2:
           "Iris är kompatibelt med CaffeineMC optimiserings mods så som Sodium och Phosphor, vilket möjliggör fantastisk grafik med frame rates likt eller till och med högre än vanilla.<br><span class='text-span-2'>Skärmbild av Guardian</span>",
@@ -1120,8 +1110,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Iris 可以为你带来...",
         image1: "OptiFine 的光影",
         imagedesc1:
-          "Iris 的目标是全面支持所有的 OptiFine 光影包, 同时 Iris 支持的光影数量正在不断的快速增长！",
-        imagecredit1: "截图来自 Niko",
+          "Iris 的目标是全面支持所有的 OptiFine 光影包, 同时 Iris 支持的光影数量正在不断的快速增长！<span class='text-span-2'><br>截图来自 Niko</span>",
         image2: "Sodium 的优化",
         imagedesc2:
           "Iris 兼容 CaffeineMC 系列的性能优化模组譬如 Sodium 和 Phosphor，这意味着在体验惊人的图形的同时你可以获得比原版更高的帧率！<br><span class='text-span-2'>截图来自 Guardian</span>",
@@ -1226,8 +1215,7 @@ export default defineI18nConfig(() => ({
         subheading2: "Iris 可以為你帶來……",
         image1: "OptiFine 同等的體驗",
         imagedesc1:
-          "Iris 的目標是全面支援所有的 OptiFine 光影包，Iris 支援的光影數量正在不斷的快速增長！",
-        imagecredit1: "Niko 提供的擷取畫面",
+          "Iris 的目標是全面支援所有的 OptiFine 光影包，Iris 支援的光影數量正在不斷的快速增長！<span class='text-span-2'><br>Niko 提供的擷取畫面</span>",
         image2: "相容於 Sodium",
         imagedesc2:
           "Iris 相容 CaffeineMC 系列效能提升模組，例如 Sodium 和 Phosphor。這意味著在體驗驚人的圖形的同時，你可以獲得比原版更高的 FPS！<br><span class='text-span-2'>Guardian 提供的擷取畫面</span>",

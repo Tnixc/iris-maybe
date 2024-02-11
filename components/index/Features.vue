@@ -14,13 +14,19 @@
       />
       <div class="border h-full p-10 flex flex-col">
         <h1 class="text-2xl pb-5">{{$t('top.image1')}}</h1>
-        <p class="text-muted-foreground">{{$t('top.imagedesc1')}}</p>
+        <!-- pretter-ignore -->
+        <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/<span class='text-span-2'><br>.*./,"")}}</p>
+        <!-- pretter-ignore -->
+        <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/.*.<span class='text-span-2'><br>/,"").replace("</span>","")}}</p>
         <div class="flex-grow"></div>
-        <span class="font-mono">{{$t('top.imagecredit1')}}</span>
       </div>
       <div class="border h-full p-10">
         <h1 class="text-2xl pb-5">{{$t('top.image2')}}</h1>
-        <p class="text-muted-foreground">{{$t('top.imagedesc2')}}</p>
+        <!-- pretter-ignore -->
+        <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/<br><span class='text-span-2'>.*./,"")}}</p>
+          <div class="flex-grow"></div>
+        <!-- pretter-ignore -->
+          <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/.*.<br><span class='text-span-2'>/,"").replace("</span>","")}}</p>
       </div>
       <NuxtImg
         class="aspect-video border"
