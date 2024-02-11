@@ -26,7 +26,7 @@ useHead({
           }}
         </p>
         <a
-          href=""
+          href="https://github.com/IrisShaders/Iris-Installer/releases/download/3.1.0/Iris-Installer-3.1.0.jar"
           class="flex w-fit flex-wrap items-center gap-4 bg-blue-600 p-4 hover:underline"
         >
           <Icon
@@ -56,7 +56,7 @@ useHead({
         </h1>
         <div class="flex gap-2 flex-wrap">
           <a
-            href=""
+            href="https://modrinth.com/mod/iris"
             class="flex w-fit flex-wrap items-center gap-4 bg-blue-600 p-4 hover:underline"
           >
             <Icon
@@ -68,7 +68,7 @@ useHead({
             }}</span>
           </a>
           <a
-            href=""
+            href="https://github.com/IrisShaders/Iris"
             class="flex w-fit flex-wrap items-center gap-4 bg-blue-600 p-4 hover:underline"
           >
             <Icon
