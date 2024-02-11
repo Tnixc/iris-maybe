@@ -63,7 +63,7 @@ const currentLocale = computed(() => {
         </a>
       </div>
       <div>
-        <h1 class="pb-2 text-xl">{{ $t("common.div2") }}</h1>
+        <h1 class="pb-2 text-xl">{{ $t("common.footer2") }}</h1>
         <div class="flex gap-5">
           <NuxtLink class="text-muted-foreground hover:underline" to="/about">{{
             $t("common.about")
