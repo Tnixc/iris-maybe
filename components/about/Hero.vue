@@ -7,6 +7,7 @@ const colorMode = useColorMode();
       height="1440"
       width="2560"
       class="col-span-2 aspect-video border bg-amber-100 dark:bg-blue-950/40 absolute top-1/2 -translate-y-1/2 -z-40"
+      alt="screenshot with shaders background"
       :src="
         colorMode.value === 'dark'
           ? '/images/backgrounds/about-bkg-dark.webp'
