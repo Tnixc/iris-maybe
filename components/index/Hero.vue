@@ -15,6 +15,11 @@ const { locale } = useI18n();
       "
     />
     <div class="flex flex-col">
+      <div class="relative flex-grow overflow-hidden">
+        <div
+          class="pointer-events-none absolute inset-16 -z-50 aspect-square -translate-x-2/3 -translate-y-2/3 rounded-full bg-gradient-to-bl from-purple-500/10 via-amber-300/40 to-blue-600/20 blur-2xl dark:via-black"
+        ></div>
+      </div>
       <h1
         class="border-r border-t bg-gradient-to-r from-purple-900/70 via-blue-900 to-amber-900/40 bg-clip-text p-4 font-serif text-6xl text-transparent dark:from-purple-100 dark:via-blue-200 dark:to-amber-200"
       >
@@ -23,11 +28,6 @@ const { locale } = useI18n();
       <h2 class="border-b border-r border-t p-4 text-2xl text-muted-foreground">
         {{ $t("top.subheading") }}
       </h2>
-      <div class="relative flex-grow overflow-hidden">
-        <div
-          class="pointer-events-none absolute inset-16 -z-50 aspect-square -translate-x-2/3 -translate-y-2/3 rounded-full bg-gradient-to-bl from-purple-500/10 via-amber-300/40 to-blue-600/20 blur-2xl dark:via-black"
-        ></div>
-      </div>
       <NuxtLink
         class="border-tp-5 flex h-fit items-center gap-2 border-b border-r p-5 font-mono text-2xl text-white hover:underline"
         id="special"

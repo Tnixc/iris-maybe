@@ -25,8 +25,14 @@ const { locale } = useI18n();
         <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/.*.<span class='text-span-2'><br>/,"").replace("</span>","")}}</p>
       </div>
       <div class="border h-full p-10 flex flex-col">
-        <h1 class="text-2xl pb-5">{{$t('top.image2')}}</h1>
+        <h1 class="text-2xl pb-5 flex items-center gap-2">{{$t('top.image2')}}
+          <NuxtImg
+          src="/images/logos/sodium1x.webp"
+          alt="sodium"
+          class="inline aspect-square h-[1.5ch] rounded-full"
+          /></h1>
         <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/<br><span class='text-span-2'>.*./,"")}}</p>
+
           <div class="flex-grow"></div>
           <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/.*.<br><span class='text-span-2'>/,"").replace("</span>","")}}</p>
       </div>
