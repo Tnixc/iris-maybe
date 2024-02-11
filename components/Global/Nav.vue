@@ -26,7 +26,7 @@ function setTheme(theme) {
           name="material-symbols:download-sharp"
           class="aspect-square text-xl text-white"
         />
-        <span class="md:block hidden">Download</span>
+        <span class="md:block hidden">{{$t('common.download')}}</span>
       </NuxtLink>
       <DropdownMenu>
         <DropdownMenuTrigger
