@@ -1,5 +1,4 @@
 <template>
-  <NuxtLayout name="404">
     <Nav />
     <div class="grid place-items-center h-[80vh] relative">
       <h1 class="font-mono text-9xl font-bold
@@ -8,5 +7,4 @@
       <NuxtImg src="/images/logos/iristrans.webp" class="aspect-square blur-3xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 select-none dark:opacity-50 pointer-events-none" alt="iris logo" />
     </div>
     <Footer />
-  </NuxtLayout>
 </template>

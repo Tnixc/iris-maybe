@@ -37,6 +37,5 @@ useHead({
         <p class="text-muted-foreground">{{ $t("common.footerdesc1") }}</p>
       </div>
     </div>
-  </Container>
-  <Footer />
+  </Container>  <Footer />
 </template>

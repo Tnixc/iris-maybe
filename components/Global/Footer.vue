@@ -18,7 +18,6 @@ const currentLocale = computed(() => {
           <Icon name="mdi:github" class="text-text aspect-square text-xl" />
           GitHub
         </a>
-
         <a href="https://discord.gg/jQJnav2jPu" target="_blank" class="hover:underline">
           <Icon name="ic:baseline-discord" class="text-text aspect-square text-xl" />
           Discord
