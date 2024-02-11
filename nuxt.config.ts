@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ["@/global.css"],
+  css: ["@/assets/global.css"],
   modules: [
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
@@ -10,8 +10,10 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "vue3-carousel-nuxt",
     "@nuxtjs/seo",
-    "@nuxtjs/google-fonts",
   ],
+  tailwindcss: {
+    cssPath: "@/assets/global.css"
+  },
   colorMode: {
     classSuffix: "",
   },

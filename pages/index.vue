@@ -1,9 +1,6 @@
-<script setup>
-import Nav from '@/components/Global/Nav.vue'
-</script>
 <template>
 <Nav />
   <div>
-    <h1>Index Page</h1>
+    <h1 class="text-3xl font-serif italic">Whereas recognition of the inherent dignity</h1>
   </div>
 </template>
