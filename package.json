@@ -16,23 +16,24 @@
     "nuxt": "^3.10.1",
     "radix-vue": "^1.4.3",
     "typescript": "^5.3.3",
+    "vercel": "^33.5.0",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.3.0",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/i18n": "^8.1.0",
+    "@nuxtjs/seo": "^2.0.0-rc.8",
+    "@nuxtjs/tailwindcss": "^6.11.4",
     "embla-carousel": "^8.0.0-rc22",
     "embla-carousel-vue": "^8.0.0-rc22",
     "lucide-vue-next": "^0.323.0",
-    "shadcn-nuxt": "^0.9.0",
+    "nuxt-icon": "^0.6.8",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
+    "shadcn-nuxt": "^0.9.0",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7",
-    "@nuxtjs/seo": "^2.0.0-rc.8",
-    "@nuxtjs/i18n": "^8.1.0",
-    "@nuxtjs/color-mode": "^3.3.2",
-    "nuxt-icon": "^0.6.8",
-    "@nuxtjs/tailwindcss": "^6.11.4",
-    "@nuxt/image": "^1.3.0"
+    "tailwindcss-animate": "^1.0.7"
   }
 }
