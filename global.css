@@ -4,11 +4,19 @@
 
 @layer base {
   :root {
-    --color-primary: 255 115 179;
-    --color-secondary: 111 114 185;
+    --base: 251 250 245;
+    --edge: 231 231 235;
+    --text: 39 39 42;
+    --subtext: 186 187 191;
   }
-  .dark{
-    --color-primary: 0 0 0;
-    --color-secondary: 33 0 44;
+  .dark {
+    --base: 24 24 24;
+    --edge: 54 55 68;
+    --text: 246 246 249;
+    --subtext: 180 182 197;
   }
+}
+body{
+  background-color: rgb(var(--base));
+  color: rgb(var(--text));
 }
