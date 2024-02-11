@@ -41,7 +41,12 @@ onMounted(() => {
       </h2>
     </div>
     <div class="flex flex-col items-center justify-center border p-10">
-      <Carousel class="aspect-video w-full" ref="carouselContainerRef">
+      <Carousel class="aspect-video w-full" ref="carouselContainerRef"
+      :opts="{
+        align: 'start',
+        loop: true,
+      }"
+      >
         <CarouselContent>
           <CarouselItem class="flex flex-col items-center justify-center">
             <NuxtImg
