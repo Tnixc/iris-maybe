@@ -18,7 +18,7 @@
     </div>
       <TabsContent value="shadows">
         <div class="md:grid grid-cols-2">
-          <NuxtImg src="/images/screenshots/godrays.webp" alt="godrays" class="aspect-video border bg-[#72936A]" width="2560" height="1400" />
+          <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"   src="/images/screenshots/godrays.webp" alt="godrays" class="aspect-video border bg-[#72936A]" width="2560" height="1400" />
           <div class="border p-6 flex flex-col">
             <h1 class="text-2xl pb-5">{{$t('index.screenshottitle1')}}</h1>
             <p class="text-muted-foreground">{{$t('index.screenshotdesc1').replaceAll("&","'").replaceAll("#x27;","").replace(/<br>.*./,"")}}</p>
@@ -29,7 +29,7 @@
       </TabsContent>
       <TabsContent value="eitites">
         <div class="md:grid grid-cols-2">
-          <NuxtImg src="/images/screenshots/entities.webp" alt="entities" class="aspect-video border bg-[#906F52]" width="2560" height="1400" />
+          <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"   src="/images/screenshots/entities.webp" alt="entities" class="aspect-video border bg-[#906F52]" width="2560" height="1400" />
           <div class="border p-6 flex flex-col">
             <h1 class="text-2xl pb-5">{{$t('index.screenshottitle2')}}</h1>
             <p class="text-muted-foreground">{{$t('index.screenshotdesc2').replaceAll("&","'").replaceAll("#x27;","").replace(/<br>.*./,"")}}</p>

@@ -15,7 +15,7 @@ function setTheme(theme) {
         class="flex items-center gap-2 bg-secondary p-1"
         :to="`/${locale}/`"
       >
-        <NuxtImg
+        <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
           src="/images/logos/iristrans.webp"
           width="42"
           height="42"

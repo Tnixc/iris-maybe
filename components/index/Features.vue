@@ -11,7 +11,7 @@ const { locale } = useI18n();
       </h2>
     </div>
     <div class="grid md:grid-cols-2 md:grid-rows-2 border ">
-      <NuxtImg
+      <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
         width="2560"
         height="1440"
         class="aspect-video border"
@@ -26,7 +26,7 @@ const { locale } = useI18n();
       </div>
       <div class="border h-full p-10 flex flex-col">
         <h1 class="text-2xl pb-5 flex items-center gap-2">{{$t('index.image2')}}
-          <NuxtImg
+          <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
           src="/images/logos/sodium1x.webp"
           alt="sodium"
           class="inline aspect-square h-[1.5ch] rounded-full"
@@ -36,7 +36,7 @@ const { locale } = useI18n();
           <div class="flex-grow"></div>
           <p class="text-muted-foreground">{{$t('index.imagedesc2').replace(/.*.<br><span class='text-span-2'>/,"").replace("</span>","")}}</p>
       </div>
-      <NuxtImg
+      <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
         width="2560"
         height="1440"
         class="aspect-video border"

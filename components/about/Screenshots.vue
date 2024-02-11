@@ -49,7 +49,7 @@ onMounted(() => {
       >
         <CarouselContent>
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen1.webp"
               alt="Screenshot 1"
               class="aspect-video select-none"
@@ -60,7 +60,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen2.webp"
               alt="Screenshot 2"
               class="aspect-video select-none"
@@ -71,7 +71,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen3.webp"
               alt="Screenshot 3"
               class="aspect-video select-none"
@@ -82,7 +82,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen4.webp"
               alt="Screenshot 4"
               class="aspect-video select-none"
@@ -93,7 +93,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen5.webp"
               alt="Screenshot 5"
               class="aspect-video select-none"
@@ -104,7 +104,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen6.webp"
               alt="Screenshot 6"
               class="aspect-video select-none"
@@ -115,7 +115,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen7.webp"
               alt="Screenshot 7"
               class="aspect-video select-none"
@@ -126,7 +126,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen8.webp"
               alt="Screenshot 8"
               class="aspect-video select-none"
@@ -137,7 +137,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen9.webp"
               alt="Screenshot 9"
               class="aspect-video select-none"
@@ -148,7 +148,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen10.webp"
               alt="Screenshot 10"
               class="aspect-video select-none"
@@ -159,7 +159,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen11.webp"
               alt="Screenshot 11"
               class="aspect-video select-none"
@@ -170,7 +170,7 @@ onMounted(() => {
           </CarouselItem>
 
           <CarouselItem class="flex flex-col items-center justify-center">
-            <NuxtImg
+            <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
               src="/images/screenshots/screen12.webp"
               alt="Screenshot 12"
               class="aspect-video select-none"

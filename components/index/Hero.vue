@@ -4,7 +4,7 @@ const { locale } = useI18n();
 </script>
 <template>
   <section class="border-b-2 border-secondary md:grid md:grid-cols-3">
-    <NuxtImg
+    <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
       height="1440"
       width="2560"
       class="col-span-2 aspect-video border bg-amber-100 dark:bg-blue-950/40"

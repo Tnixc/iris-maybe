@@ -9,7 +9,7 @@
     </div>
     <div class="md:grid md:grid-cols-3">
       <div class="border p-10">
-        <NuxtImg
+        <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
           src="/images/logos/minecraft-volume-alpha.webp"
           alt="Minecraft Vanilla"
           class="aspect-square"
@@ -48,7 +48,7 @@
           </p>
         </div>
         <div class="border p-10">
-          <NuxtImg
+          <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
             src="/images/logos/sodium1x.webp"
             alt="Sodium mod"
             class="mx-auto aspect-square"
@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="border p-10">
-        <NuxtImg
+        <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
           src="/images/logos/iristrans.webp"
           alt="Minecraft Vanilla"
         />

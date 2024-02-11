@@ -3,7 +3,7 @@ const colorMode = useColorMode();
 </script>
 <template>
   <section class="relative flex flex-col aspect-video md:aspect-[3/1] overflow-hidden border-b">
-    <NuxtImg
+    <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
       height="1440"
       width="2560"
       class="col-span-2 aspect-video border bg-amber-100 dark:bg-blue-950/40 absolute top-1/2 -translate-y-1/2 -z-40"
