@@ -6,3 +6,5 @@
 - [x] light/dark mode
 - [x] SEO
 - [x] Fully responsive
+
+Written and deployed to vercel in under a day.
