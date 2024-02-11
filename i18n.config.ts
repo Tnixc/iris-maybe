@@ -1307,7 +1307,3 @@ const options = {
 export default defineI18nConfig(() => (
   options
 ));
-
-export function getHeadTitle(page, locale){
-  return options[locale][page].title;
-}

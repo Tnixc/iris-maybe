@@ -1,8 +1,9 @@
 <script setup>
-const { locale } = useI18n()
-console.log(locale.value)
-definePageMeta({
-  title: "z",
+import i18n from '@/i18n.config'
+const {locale}  = useI18n();
+const t = i18n('about').messages[locale.value].about.abouttitle
+useHead({
+  title: t,
 })
 </script>
 <template>
