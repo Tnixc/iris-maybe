@@ -3,7 +3,7 @@ const colorMode = useColorMode();
 const { locale } = useI18n();
 </script>
 <template>
-  <section class="md:grid border-b-2 border-secondary md:grid-cols-3">
+  <section class="border-b-2 border-secondary md:grid md:grid-cols-3">
     <NuxtImg
       height="1440"
       width="2560"
@@ -29,8 +29,9 @@ const { locale } = useI18n();
         ></div>
       </div>
       <NuxtLink
-        class="flex h-fit items-center gap-2 border-b border-r border-t bg-blue-600 p-5 px-5 font-mono text-2xl text-white hover:underline"
-        :to="`/${locale}/about`"
+        class="border-tp-5 flex h-fit items-center gap-2 border-b border-r p-5 font-mono text-2xl text-white hover:underline"
+        id="special"
+        :to="`/${locale}/download`"
       >
         <Icon
           name="material-symbols:download-sharp"
@@ -41,3 +42,15 @@ const { locale } = useI18n();
     </div>
   </section>
 </template>
+<style scoped>
+#special {
+  background-color: transparent; /* initial background color */
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #2463EB 50% /*blue 600 */
+  ); /* initial background image */
+  background-attachment: fixed; /* fixed background */
+  position: relative;
+}
+</style>
