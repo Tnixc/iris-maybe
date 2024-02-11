@@ -5,8 +5,8 @@ const { locale } = useI18n();
 <template>
   <nav class="flex justify-center">
     <div class="flex w-full max-w-5xl items-center">
-      <NuxtImg
-        src="../../assets/images/logos/iristrans.webp"
+      <nuxt-img
+        src="/images/logos/iristrans.webp"
         width="32"
         height="32"
       />
