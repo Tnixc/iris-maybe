@@ -1,19 +1,20 @@
 <script setup>
-import i18n from '@/i18n.config'
-const {locale}  = useI18n();
-const t = i18n('index').messages[locale.value].index.title
+import i18n from "@/i18n.config";
+import Header from "~/components/global/Header.vue";
+const { locale } = useI18n();
+const t = i18n("index").messages[locale.value].index.title;
 useHead({
   title: t,
-})
+});
 </script>
 <template>
-  <Nav />
+  <Header />
   <Container>
     <IndexHero />
     <IndexWhyUs />
     <IndexFeatures />
     <IndexAdvantage />
-    <div class="flex gap-4 p-10 flex-wrap">
+    <div class="flex flex-wrap gap-4 p-10">
       <NuxtLink
         class="flex h-fit items-center gap-2 border bg-blue-600 p-5 font-mono text-2xl text-white hover:underline"
         :to="`/${locale}/download`"
@@ -33,9 +34,10 @@ useHead({
       </NuxtLink>
       <div class="flex-grow"></div>
       <div class="md:w-1/3">
-        <h1 class="text-3xl pb-2">{{ $t("common.footer1") }}</h1>
+        <h1 class="pb-2 text-3xl">{{ $t("common.footer1") }}</h1>
         <p class="text-muted-foreground">{{ $t("common.footerdesc1") }}</p>
       </div>
     </div>
-  </Container>  <Footer />
+  </Container>
+  <Foot />
 </template>

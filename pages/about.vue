@@ -7,12 +7,12 @@ useHead({
 })
 </script>
 <template>
-  <Nav />
+  <Header/>
   <Container>
     <AboutHero />
     <AboutInfo />
     <AboutPerformance />
     <AboutScreenshots />
   </Container>
-  <Footer />
+  <Foot />
 </template>

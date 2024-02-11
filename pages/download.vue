@@ -8,7 +8,7 @@ useHead({
 })
 </script>
 <template>
-  <Nav />
+  <Header />
   <Container>
     <div class="grid-cols-3 gap-2 p-3 md:grid md:p-10">
       <div class="relative col-span-2 border p-10">
@@ -88,5 +88,5 @@ useHead({
       </div>
     </div>
   </Container>
-  <Footer />
+  <Foot />
 </template>
