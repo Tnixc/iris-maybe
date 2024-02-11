@@ -20,3 +20,7 @@ body{
   background-color: rgb(var(--base));
   color: rgb(var(--text));
 }
+::selection{
+  background-color: #67BCFD;
+  color: black;
+}
