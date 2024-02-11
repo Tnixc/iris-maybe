@@ -1,7 +1,8 @@
 <template>
   <Nav />
   <Container>
-    <Hero />
+    <IndexHero />
+    
   </Container>
   <Footer />
 </template>

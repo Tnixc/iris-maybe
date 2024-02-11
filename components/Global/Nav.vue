@@ -1,26 +1,26 @@
 <script setup>
 const colorMode = useColorMode();
-
+const {locale} = useI18n();
 function setTheme(theme) {
   colorMode.preference = theme;
   colorMode.value = theme;
 }
 </script>
 <template>
-  <nav class="flex justify-center fixed top-0 right-0 left-0">
-    <div class="flex w-full max-w-7xl items-center bg-secondary/50 backdrop-blur-lg">
-      <NuxtLink class="flex items-center gap-2 bg-secondary p-1" to="/">
+  <nav class="flex justify-center fixed top-0 right-0 left-0 z-50">
+    <div class="flex w-full max-w-7xl items-center bg-secondary/70 backdrop-blur-lg ">
+      <NuxtLink class="flex items-center gap-2 bg-secondary p-1" :to="`/${locale}/`">
         <NuxtImg src="/images/logos/iristrans.webp" width="42" height="42" />
         <h1 class="font-mono md:text-2xl">IRIS SHADERS</h1>
       </NuxtLink>
       <div class="flex-grow"></div>
       <NuxtLink
         class="flex h-full items-center px-5 font-mono md:text-lg hover:underline hover:bg-accent text-right"
-        to="/download"
+        :to="`/${locale}/about`"
       >{{$t('common.about')}}</NuxtLink>
       <NuxtLink
         class="flex h-full items-center gap-2 bg-blue-600 px-5 font-mono text-lg text-white hover:underline"
-        to="/download"
+        :to="`/${locale}/about`"
       >
         <Icon
           name="material-symbols:download-sharp"
@@ -52,7 +52,7 @@ function setTheme(theme) {
             class="aspect-square"
             v-on:click="setTheme('system')"
           >
-            <Icon name="ph:desktop" class="text-text text-xl" />
+            <Icon name="ph:desktop-bold" class="text-text text-xl" />
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
