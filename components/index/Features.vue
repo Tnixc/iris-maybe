@@ -5,9 +5,9 @@ const { locale } = useI18n();
   <!-- pretter-ignore -->
   <section class="border-b-2 md:p-10 p-3">
     <div class="flex flex-wrap items-end justify-between gap-4 border-x border-t p-10" >
-      <h1 class="text-4xl">{{ $t("top.heading2") }}</h1>
+      <h1 class="text-4xl">{{ $t("index.heading2") }}</h1>
       <h2 class="text-2xl text-muted-foreground">
-        {{ $t("top.subheading2") }}
+        {{ $t("index.subheading2") }}
       </h2>
     </div>
     <div class="grid md:grid-cols-2 md:grid-rows-2 border ">
@@ -19,22 +19,22 @@ const { locale } = useI18n();
         alt="Main screenshot 1"
       />
       <div class="border h-full p-10 flex flex-col">
-        <h1 class="text-2xl pb-5">{{$t('top.image1')}}</h1>
-        <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/<span class='text-span-2'><br>.*./,"")}}</p>
+        <h1 class="text-2xl pb-5">{{$t('index.image1')}}</h1>
+        <p class="text-muted-foreground">{{$t('index.imagedesc1').replace(/<span class='text-span-2'><br>.*./,"")}}</p>
         <div class="flex-grow"></div>
-        <p class="text-muted-foreground">{{$t('top.imagedesc1').replace(/.*.<span class='text-span-2'><br>/,"").replace("</span>","")}}</p>
+        <p class="text-muted-foreground">{{$t('index.imagedesc1').replace(/.*.<span class='text-span-2'><br>/,"").replace("</span>","")}}</p>
       </div>
       <div class="border h-full p-10 flex flex-col">
-        <h1 class="text-2xl pb-5 flex items-center gap-2">{{$t('top.image2')}}
+        <h1 class="text-2xl pb-5 flex items-center gap-2">{{$t('index.image2')}}
           <NuxtImg
           src="/images/logos/sodium1x.webp"
           alt="sodium"
           class="inline aspect-square h-[1.5ch] rounded-full"
           /></h1>
-        <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/<br><span class='text-span-2'>.*./,"")}}</p>
+        <p class="text-muted-foreground">{{$t('index.imagedesc2').replace(/<br><span class='text-span-2'>.*./,"")}}</p>
 
           <div class="flex-grow"></div>
-          <p class="text-muted-foreground">{{$t('top.imagedesc2').replace(/.*.<br><span class='text-span-2'>/,"").replace("</span>","")}}</p>
+          <p class="text-muted-foreground">{{$t('index.imagedesc2').replace(/.*.<br><span class='text-span-2'>/,"").replace("</span>","")}}</p>
       </div>
       <NuxtImg
         width="2560"

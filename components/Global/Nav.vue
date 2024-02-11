@@ -20,7 +20,7 @@ function setTheme(theme) {
       >{{$t('common.about')}}</NuxtLink>
       <NuxtLink
         class="flex h-full items-center gap-2 bg-blue-600 px-5 font-mono text-lg text-white hover:underline"
-        :to="`/${locale}/about`"
+        :to="`/${locale}/download`"
       >
         <Icon
           name="material-symbols:download-sharp"

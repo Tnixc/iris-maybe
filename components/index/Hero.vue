@@ -23,10 +23,10 @@ const { locale } = useI18n();
       <h1
         class="border-r border-t bg-gradient-to-r from-purple-900/70 via-blue-900 to-amber-900/40 bg-clip-text p-4 font-serif text-6xl text-transparent dark:from-purple-100 dark:via-blue-200 dark:to-amber-200"
       >
-        {{ $t("top.title") }}
+        {{ $t("index.title") }}
       </h1>
       <h2 class="border-b border-r border-t p-4 text-2xl text-muted-foreground">
-        {{ $t("top.subheading") }}
+        {{ $t("index.subheading") }}
       </h2>
       <NuxtLink
         class="border-tp-5 flex h-fit items-center gap-2 border-b border-r p-5 font-mono text-2xl text-white hover:underline"

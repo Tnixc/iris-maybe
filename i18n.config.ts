@@ -3,7 +3,7 @@ export default defineI18nConfig(() => ({
   locale: "en",
   messages: {
     cs: {
-      top: {
+      index: {
         title: "Tohle je Iris",
         subheading: "Pohled do nové éry grafiky Minecraftu",
         or: "nebo",
@@ -41,7 +41,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Stále jste zvědaví? <a href='about.html'>Zjistěte více</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "O projektu IrisShaders",
         heading: "Projekt Iris",
         subheading: "Zjistěte více o shaderové senzaci",
@@ -78,7 +78,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Vyfotil Justsnoopy30 pomocí Complementary v4.0 BE",
         note: "Poznámka - BE značí snímky, které byly pořízeny s módem BetterEnd od paulevs",
       },
-      bottom: {
+      download: {
         downloadiris: "Stáhnout nyní - IrisShaders",
         heading: "Instalátor Iris",
         subheading: "Navržen tak, aby vám zpříjemnil používání Iris",
@@ -112,7 +112,7 @@ export default defineI18nConfig(() => ({
       },
     },
     de: {
-      top: {
+      index: {
         title: "Das ist Iris",
         subheading: "Ein Blick in eine neue Ära der Minecraft-Grafik",
         or: "oder",
@@ -149,7 +149,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Neugierig geworden? <a href='about.html'>Mehr erfahren</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "Über IrisShaders",
         heading: "Das Iris-Projekt",
         subheading: "Erfahre mehr über die Shader-Sensation",
@@ -187,7 +187,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Aufgenommen von Justsnoopy30 mit Complementary v4.0 BE",
         note: "Hinweis - BE kennzeichnet Screenshots, die Inhalte aus der BetterEnd-Mod von paulevs enthalten.",
       },
-      bottom: {
+      download: {
         downloadiris: "Jetzt herunterladen - IrisShaders",
         heading: "Der Iris-Installer",
         subheading: "entwickelt, um das Iris-Erlebnis zu erleichtern",
@@ -221,7 +221,7 @@ export default defineI18nConfig(() => ({
       },
     },
     en: {
-      top: {
+      index: {
         title: "This is Iris",
         subheading: "A lens into a new era of minecraft graphics",
         or: "or",
@@ -258,7 +258,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Still curious? <a href='about.html'>Learn More</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "About IrisShaders",
         heading: "The Iris Project",
         subheading: "Learn more about the Shader Sensation",
@@ -295,7 +295,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Captured by Justsnoopy30 using Complementary v4.0 BE",
         note: "Note - BE indicates screenshots that feature content from the BetterEnd mod by paulevs.",
       },
-      bottom: {
+      download: {
         downloadiris: "Download Now - IrisShaders",
         heading: "The Iris Installer",
         subheading: "designed to streamline your Iris experience",
@@ -329,7 +329,7 @@ export default defineI18nConfig(() => ({
       },
     },
     en_US: {
-      top: {
+      index: {
         title: "This is Iris",
         subheading: "A lens into a new era of minecraft graphics",
         or: "or",
@@ -366,7 +366,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Still curious? <a href='about.html'>Learn More</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "About IrisShaders",
         heading: "The Iris Project",
         subheading: "Learn more about the Shader Sensation",
@@ -403,7 +403,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Captured by Justsnoopy30 using Complementary v4.0 BE",
         note: "Note - BE indicates screenshots that feature content from the BetterEnd mod by paulevs.",
       },
-      bottom: {
+      download: {
         downloadiris: "Download Now - IrisShaders",
         heading: "The Iris Installer",
         subheading: "designed to streamline your Iris experience",
@@ -437,7 +437,7 @@ export default defineI18nConfig(() => ({
       },
     },
     es: {
-      top: {
+      index: {
         title: "Esto es Iris",
         subheading: "La lente a una nueva era de gráficos en minecraft",
         or: "o",
@@ -473,7 +473,7 @@ export default defineI18nConfig(() => ({
         screenshotdesc2:
           "Iris mejora la forma en que Minecraft renderiza entidades y bloques con entidades como cofres, cerdos, o marcos para objetos. Este truco funciona hasta con los shaders desactivados, y en mundos con muchas entidades, puede hasta mejorar el rendimiento en vanilla por hasta un 60 por ciento. La renderización de sombras encuentra una mejora especialmente grande, ¡haciendo zonas que una vez fueron injugables con shaders sitios donde tus FPS són sorprendientemente estables!<br><span class='text-span-2'>Captura por kinzuu_music</span>",
       },
-      middle: {
+      about: {
         abouttitle: "Acerca de IrisShaders",
         screenshotdesc2:
           "Iris mejora la forma en que Minecraft renderiza entidades y bloques con entidades como cofres, cerdos, o marcos para objetos. Este truco funciona hasta con los shaders desactivados, y en mundos con muchas entidades, puede hasta mejorar el rendimiento en vanilla por hasta un 60 por ciento. La renderización de sombras encuentra una mejora especialmente grande, ¡haciendo zonas que una vez fueron injugables con shaders sitios donde tus FPS són sorprendientemente estables!<br><span class='text-span-2'>Captura por kinzuu_music</span>",
@@ -512,7 +512,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Capturado por Justsnoopy30 usando Complementary v4.0 BE",
         note: "Nota - BE indica capturas con contenido del mod BetterEnd por paulevs",
       },
-      bottom: {
+      download: {
         downloadiris: "Descargar Ahora - IrisShaders",
         heading: "El Instalador de Iris",
         subheading: "diseñado para simplificar tu experiencia con Iris",
@@ -543,7 +543,7 @@ export default defineI18nConfig(() => ({
       },
     },
     fr: {
-      top: {
+      index: {
         title: "Voici Iris",
         subheading:
           "Une ouverture vers une nouvelle ère des graphismes minecraft",
@@ -582,7 +582,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Curieux ? <a href='about.html'>En savoir plus</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "À propos d'Iris",
         heading: "Le projet Iris",
         subheading: "À propos des shaders",
@@ -624,7 +624,7 @@ export default defineI18nConfig(() => ({
           "Capture d'écran par Justsnoopy30 utilisant Complementary v4.0 BE",
         note: "Remarque - BE indique des captures d'écran qui utilisent le mod BetterEnd de paulevs",
       },
-      bottom: {
+      download: {
         downloadiris: "Télécharger - IrisShaders",
         heading: "L'installateur Iris",
         subheading: "conçu pour améliorer votre expérience Iris",
@@ -654,7 +654,7 @@ export default defineI18nConfig(() => ({
       },
     },
     nl: {
-      top: {
+      index: {
         title: "Dit is Iris",
         subheading: "Een lens naar een nieuw tijdperk van minecraft graphics",
         or: "of",
@@ -692,7 +692,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Nog steeds nieuwsgierig? <a href='about.html'>Leer Meer</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "Over IrisShaders",
         heading: "het Iris Project",
         subheading: "Leer meer over de Shader Sensatie",
@@ -729,7 +729,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Vastgelegd door Justsnoopy30 met Complementary v4.0 BE",
         note: "Opmerking - BE geeft screenshots aan met inhoud van de BetterEnd mod van paulevs",
       },
-      bottom: {
+      download: {
         downloadiris: "Download Nu- IrisShaders",
         heading: "De Iris Installatieprogramma",
         subheading: "ontworpen om uw Iris ervaring te stroomlijnen",
@@ -763,7 +763,7 @@ export default defineI18nConfig(() => ({
       },
     },
     pt_BR: {
-      top: {
+      index: {
         title: "Este é o Iris",
         subheading: "O futuro da área gráfica do Minecraft",
         or: "ou",
@@ -801,7 +801,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Ainda curioso? <a href='about.html'>Saiba Mais</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "Sobre o Iris",
         heading: "O Projeto Iris",
         subheading: "Saiba mais sobre a nova geração de Shaders",
@@ -838,7 +838,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Capturada por Justsnoopy30 usando Complementary v4.0 BE",
         note: "Detalhe - BE indica capturas que mostram conteúdos do mod BetterEnd de paulevs",
       },
-      bottom: {
+      download: {
         downloadiris: "Baixe agora - Iris",
         heading: "Instalador do Iris",
         subheading: "Desenvolvido para melhorar sua experiência com Iris",
@@ -873,7 +873,7 @@ export default defineI18nConfig(() => ({
       },
     },
     ru: {
-      top: {
+      index: {
         title: "Это Iris",
         subheading: "Взгляд в новую эру графики Minecraft",
         or: "или",
@@ -911,7 +911,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Всё ещё интересно? <a href='about.html'>Узнать больше</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "О IrisShaders",
         heading: "Проект Iris",
         subheading: "Узнайте больше о особенностях шейдеров",
@@ -949,7 +949,7 @@ export default defineI18nConfig(() => ({
           "Снято Justsnoopy30 с использованием Complementary v4.0 BE",
         note: "Примечание – BE обозначены скриншоты, которые демонстрируют контент из мода BetterEnd от paulevs",
       },
-      bottom: {
+      download: {
         downloadiris: "Скачать - IrisShaders",
         heading: "Установщик Iris",
         subheading: "Создан, чтобы упростить ваш опыт работы с Iris",
@@ -983,7 +983,7 @@ export default defineI18nConfig(() => ({
       },
     },
     sv: {
-      top: {
+      index: {
         title: "Detta är Iris",
         subheading: "En lins till en ny era av minecraft grafik",
         or: "eller",
@@ -1020,7 +1020,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "Fortfarande nyfiken? <a href='about.html'>Läs vidare</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "Om IrisShaders",
         heading: "Iris-projektet",
         subheading: "Lär dig mer om Shader Sensationen",
@@ -1057,7 +1057,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Bild av Justsnoopy30 med Complementary v4.0 BE",
         note: "Notera - BE indikerar skärmbilder med innehåll från BetterEnd modet av paulevs",
       },
-      bottom: {
+      download: {
         downloadiris: "Ladda ner Nu - IrisShaders",
         heading: "Irisinstalleraren",
         subheading: "designad för att underlätta din Iris-upplevelse",
@@ -1091,7 +1091,7 @@ export default defineI18nConfig(() => ({
       },
     },
     zh_Hans: {
-      top: {
+      index: {
         title: "这就是 Iris",
         subheading: "打开次世代 Minecraft 光影的大门",
         or: "或者",
@@ -1127,7 +1127,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "还是很好奇？<a href='about.html'>了解更多</a><link rel='prefetch' href='/about.html'>.",
       },
-      middle: {
+      about: {
         abouttitle: "关于 Iris 光影",
         subheading: "了解更多关于 Iris 的信息",
         aboutproject: "关于本项目",
@@ -1162,7 +1162,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "截图来自 Justsnoopy30 ，使用 Complementary v4.0 BE",
         note: "注意 - BE 代表了截图中包含了 paulevs 的 BetterEnd 模组",
       },
-      bottom: {
+      download: {
         downloadiris: "下载 Iris - IrisShaders",
         heading: "Iris 光影安装程序",
         subheading: "一键安装，立即体验",
@@ -1196,7 +1196,7 @@ export default defineI18nConfig(() => ({
       },
     },
     zh_Hant: {
-      top: {
+      index: {
         title: "這就是 Iris",
         subheading: "打開次世代 Minecraft 光影的大門",
         or: "或者",
@@ -1232,7 +1232,7 @@ export default defineI18nConfig(() => ({
         stillcurious:
           "還是很好奇嗎？<a href='about.html'>了解更多</a><link rel='prefetch' href='/about.html'>。",
       },
-      middle: {
+      about: {
         abouttitle: "關於 Iris 光影",
         heading: "Iris 專案",
         subheading: "了解更多關於 Iris 的資訊",
@@ -1268,7 +1268,7 @@ export default defineI18nConfig(() => ({
         screenshot12: "Justsnoopy30 提供的擷取畫面，使用 Complementary v4.0 BE",
         note: "注意：BE 代表了擷取畫面中包含了 paulevs 的 BetterEnd 模組",
       },
-      bottom: {
+      download: {
         downloadiris: "下載 Iris - IrisShaders",
         heading: "Iris 光影安裝程式",
         subheading: "一鍵安裝，立即體驗",
