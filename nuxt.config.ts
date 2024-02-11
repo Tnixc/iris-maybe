@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({ 
-  ssr: false,
+  ssr: true,
   devtools: { enabled: true },
   css: ["@/assets/global.css"],
   modules: [
@@ -44,7 +44,7 @@ export default defineNuxtConfig({
     description: 'The Iris Project',
   },
   ogImage: {
-    enabled: true
+    enabled: false
   },
   sitemap: {
     enabled: true
