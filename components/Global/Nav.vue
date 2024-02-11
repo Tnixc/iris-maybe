@@ -9,18 +9,22 @@ function setTheme(theme) {
 <template>
   <nav class="flex justify-center">
     <div class="flex w-full max-w-5xl items-center bg-secondary">
-      <div class="flex items-center gap-2 bg-secondary p-3">
+      <NuxtLink class="flex items-center gap-2 bg-secondary p-1" to="/">
         <NuxtImg src="/images/logos/iristrans.webp" width="42" height="42" />
         <h1 class="font-mono text-2xl">IRIS SHADERS</h1>
-      </div>
-      
+      </NuxtLink>
+      <div class="flex-grow"></div>
       <NuxtLink
-        class="flex h-full items-center gap-2 bg-blue-600 px-5 font-mono text-xl text-white"
+        class="flex h-full items-center gap- px-5 font-mono text-lg hover:underline hover:bg-accent"
+        to="/download"
+      >Learn More</NuxtLink>
+      <NuxtLink
+        class="flex h-full items-center gap-2 bg-blue-600 px-5 font-mono text-lg text-white hover:underline"
         to="/download"
       >
         <Icon
           name="material-symbols:download-sharp"
-          class="aspect-square text-3xl text-white"
+          class="aspect-square text-xl text-white"
         />
         <span>Download</span>
       </NuxtLink>
@@ -29,26 +33,26 @@ function setTheme(theme) {
           class="flex h-full select-none items-center gap-2 p-2 px-4"
         >
           <Icon
-            :name="colorMode.value === 'light' ? 'ph:sun' : 'ph:moon'"
-            class="text-text aspect-square text-2xl"
+            :name="colorMode.value === 'light' ? 'ph:sun-bold' : 'ph:moon-bold'"
+            class="text-text aspect-square text-xl"
           />
-          <Icon name="ph:caret-down" class="text-text aspect-square text-2xl" />
+          <Icon name="ph:caret-down-bold" class="text-text aspect-square text-2xl" />
         </DropdownMenuTrigger>
-        <DropdownMenuContent class="flex w-min">
+        <DropdownMenuContent class="flex w-min items-center justify-center py-2">
           <DropdownMenuItem
             class="aspect-square"
             v-on:click="setTheme('light')"
           >
-            <Icon name="ph:sun" class="text-text text-2xl" />
+            <Icon name="ph:sun-bold" class="text-text text-xl" />
           </DropdownMenuItem>
           <DropdownMenuItem class="aspect-square" v-on:click="setTheme('dark')">
-            <Icon name="ph:moon" class="text-text text-2xl" />
+            <Icon name="ph:moon-bold" class="text-text text-xl" />
           </DropdownMenuItem>
           <DropdownMenuItem
             class="aspect-square"
             v-on:click="setTheme('system')"
           >
-            <Icon name="ph:desktop" class="text-text text-2xl" />
+            <Icon name="ph:desktop" class="text-text text-xl" />
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
