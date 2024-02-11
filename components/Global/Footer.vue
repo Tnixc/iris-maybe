@@ -1,26 +1,26 @@
 <script setup>
-const { locale } = useI18n();
-function setLocale(l) {
-  locale.value = l;
-}
-setLocale('fr')
+const { locale, locales } = useI18n();
+const switchLocalePath = useSwitchLocalePath();
+
+const availableLocales = computed(() => {
+  return locales.value.filter((i) => i.code !== locale.value);
+});
+const currentLocale = computed(() => {
+  return locales.value.find((i) => i.code === locale.value);
+});
 </script>
+
 <template>
   <DropdownMenu>
-    <DropdownMenuTrigger></DropdownMenuTrigger>
+    <DropdownMenuTrigger>
+      <Icon name="ph:translate" class="text-text aspect-square text-xl" />
+      <span>{{ currentLocale.name }}</span></DropdownMenuTrigger>
     <DropdownMenuContent>
-      <DropdownMenuItem><span v-on:click="setLocale('cs')">Czech</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('de')">German</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('en')">English</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('en_US')">English (US)</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('es')">Spanish</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('fr')">French</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('nl')">Dutch</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('pt_BR')">Portuguese (Brazil)</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('ru')">Russian</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('sv')">Swedish</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('zh_Hans')">Chinese (Simplified)</span></DropdownMenuItem>
-      <DropdownMenuItem><span v-on:click="setLocale('zh_Hant')">Chinese (Traditional)</span></DropdownMenuItem>
+      <DropdownMenuItem v-for="locale in availableLocales" :key="locale.code">
+        <NuxtLink class="items flex" :to="switchLocalePath(locale.code)">
+          {{ locale.name }}
+        </NuxtLink>
+      </DropdownMenuItem>
     </DropdownMenuContent>
   </DropdownMenu>
 </template>
