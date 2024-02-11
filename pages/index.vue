@@ -8,7 +8,7 @@ const { locale } = useI18n();
     <IndexWhyUs />
     <IndexFeatures />
     <IndexAdvantage />
-    <div class="flex gap-4 p-10">
+    <div class="flex gap-4 p-10 flex-wrap">
       <NuxtLink
         class="flex h-fit items-center gap-2 border bg-blue-600 p-5 font-mono text-2xl text-white hover:underline"
         :to="`/${locale}/download`"
@@ -26,6 +26,11 @@ const { locale } = useI18n();
         {{ $t("common.about") }}
         <Icon name="ph:arrow-right-bold" />
       </NuxtLink>
+      <div class="flex-grow"></div>
+      <div class="md:w-1/3">
+        <h1 class="text-3xl pb-2">{{ $t("common.footer1") }}</h1>
+        <p class="text-muted-foreground">{{ $t("common.footerdesc1") }}</p>
+      </div>
     </div>
   </Container>
   <Footer />

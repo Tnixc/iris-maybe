@@ -1,6 +1,7 @@
 <template>
   <Nav />
-  <div class="h-96"></div>
-  <h1>{{$t('common.download')}}</h1>
+  <Container>
+    <h1>{{ $t("common.download") }}</h1>
+  </Container>
   <Footer />
 </template>
