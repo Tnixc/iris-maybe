@@ -1,22 +1,26 @@
 <script setup>
 const { locale } = useI18n();
+function setLocale(l) {
+  locale.value = l;
+}
+setLocale('fr')
 </script>
 <template>
-
-  <form>
-    <select v-model="locale">
-      <option value="cs">Czech</option>
-      <option value="de">German</option>
-      <option value="en">English</option>
-      <option value="en_US">English (US)</option>
-      <option value="es">Spanish</option>
-      <option value="fr">French</option>
-      <option value="nl">Dutch</option>
-      <option value="pt_BR">Portuguese (Brazil)</option>
-      <option value="ru">Russian</option>
-      <option value="sv">Swedish</option>
-      <option value="zh_Hans">Chinese (Simplified)</option>
-      <option value="zh_Hant">Chinese (Traditional)</option>
-    </select>
-  </form>
+  <DropdownMenu>
+    <DropdownMenuTrigger></DropdownMenuTrigger>
+    <DropdownMenuContent>
+      <DropdownMenuItem><span v-on:click="setLocale('cs')">Czech</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('de')">German</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('en')">English</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('en_US')">English (US)</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('es')">Spanish</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('fr')">French</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('nl')">Dutch</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('pt_BR')">Portuguese (Brazil)</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('ru')">Russian</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('sv')">Swedish</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('zh_Hans')">Chinese (Simplified)</span></DropdownMenuItem>
+      <DropdownMenuItem><span v-on:click="setLocale('zh_Hant')">Chinese (Traditional)</span></DropdownMenuItem>
+    </DropdownMenuContent>
+  </DropdownMenu>
 </template>
