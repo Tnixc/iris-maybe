@@ -2,9 +2,9 @@
   <Nav />
   <Container>
     <AboutHero />
-    <!-- <div class="h-10"></div> -->
     <AboutInfo />
     <AboutPerformance />
+    <AboutScreenshots />
   </Container>
   <Footer />
 </template>
