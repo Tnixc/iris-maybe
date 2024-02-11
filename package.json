@@ -13,7 +13,6 @@
     "@vueuse/core": "^10.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "lucide-vue-next": "^0.323.0",
     "nuxt": "^3.10.1",
     "radix-vue": "^1.4.3",
     "typescript": "^5.3.3",
@@ -21,6 +20,9 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "embla-carousel": "^8.0.0-rc22",
+    "embla-carousel-vue": "^8.0.0-rc22",
+    "lucide-vue-next": "^0.323.0",
     "shadcn-nuxt": "^0.9.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",

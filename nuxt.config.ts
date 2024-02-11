@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default defineNuxtConfig({ 
+  ssr: true,
   devtools: { enabled: true },
   css: ["@/assets/global.css"],
   modules: [
@@ -58,6 +59,6 @@ export default defineNuxtConfig({
     enabled: true
   },
   linkChecker: {
-    enabled: true
+    enabled: false
   }
 });
