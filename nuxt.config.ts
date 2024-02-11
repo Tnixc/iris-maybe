@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "vue3-carousel-nuxt",
     "@nuxtjs/seo",
+    "@nuxtjs/google-fonts",
   ],
   colorMode: {
     classSuffix: "",
