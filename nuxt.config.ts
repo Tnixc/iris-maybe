@@ -37,4 +37,27 @@ export default defineNuxtConfig({
       { code: "zh_Hant", name: "Chinese (Traditional)" },
     ],
   },
+  site: {
+    url: 'https://irisshaders.dev',
+    name: 'Iris',
+    description: 'The Iris Project',
+  },
+  ogImage: {
+    enabled: true
+  },
+  sitemap: {
+    enabled: true
+  },
+  robots: {
+    enabled: true
+  },
+  seoExperiments: {
+    enabled: true
+  },
+  schemaOrg: {
+    enabled: true
+  },
+  linkChecker: {
+    enabled: true
+  }
 });

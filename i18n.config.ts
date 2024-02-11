@@ -1,4 +1,4 @@
-export default defineI18nConfig(() => ({
+const options = {
   legacy: false,
   locale: "en",
   messages: {
@@ -1302,4 +1302,12 @@ export default defineI18nConfig(() => ({
       },
     },
   },
-}));
+  
+}
+export default defineI18nConfig(() => (
+  options
+));
+
+export function getHeadTitle(page, locale){
+  return options[locale][page].title;
+}
