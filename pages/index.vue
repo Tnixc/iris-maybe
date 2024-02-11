@@ -1,5 +1,10 @@
 <script setup>
-const { locale } = useI18n();
+import i18n from '@/i18n.config'
+const {locale}  = useI18n();
+const t = i18n('index').messages[locale.value].index.title
+useHead({
+  title: t,
+})
 </script>
 <template>
   <Nav />
