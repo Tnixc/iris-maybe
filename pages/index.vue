@@ -1,6 +1,5 @@
 <script setup>
 import i18n from "@/i18n.config.ts";
-import Header from "~/components/global/Header.vue";
 const { locale } = useI18n();
 const t = i18n("index").messages[locale.value].index.title;
 useHead({
