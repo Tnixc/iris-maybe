@@ -4,7 +4,9 @@ const { locale } = useI18n();
 </script>
 <template>
   <section class="border-b-2 border-secondary md:grid md:grid-cols-3">
-    <NuxtImg placeholder sizes="100vw sm:50vw md:100vw"  
+    <NuxtImg
+      placeholder
+      sizes="100vw sm:50vw md:100vw"
       height="1440"
       width="2560"
       class="col-span-2 aspect-video border bg-amber-100 dark:bg-blue-950/40"
@@ -22,11 +24,19 @@ const { locale } = useI18n();
         ></div>
       </div>
       <h1
-        class="border-r border-t bg-gradient-to-r from-purple-900/70 via-blue-900 to-amber-900/40 bg-clip-text p-4 font-serif text-6xl text-transparent dark:from-purple-100 dark:via-blue-200 dark:to-amber-200"
+        :class="[
+          'border-r border-t bg-gradient-to-r from-purple-900/70 via-blue-900 to-amber-900/40 bg-clip-text p-4 font-serif text-6xl text-transparent dark:from-purple-100 dark:via-blue-200 dark:to-amber-200',
+          { 'text-end': $i18n.locale === 'ar' },
+        ]"
       >
         {{ $t("index.title") }}
       </h1>
-      <h2 class="border-b border-r border-t p-4 text-2xl text-muted-foreground">
+      <h2
+        :class="[
+          'border-b border-r border-t p-4 text-2xl text-muted-foreground',
+          { 'text-end': $i18n.locale === 'ar' },
+        ]"
+      >
         {{ $t("index.subheading") }}
       </h2>
       <NuxtLink
@@ -49,7 +59,7 @@ const { locale } = useI18n();
   background-image: linear-gradient(
     to bottom,
     transparent 0%,
-    #2463EB 50% /*blue 600 */
+    #2463eb 50% /*blue 600 */
   ); /* initial background image */
   background-attachment: fixed; /* fixed background */
   position: relative;
