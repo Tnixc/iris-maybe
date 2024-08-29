@@ -1,5 +1,6 @@
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({ 
+export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
   css: ["@/assets/global.css"],
@@ -13,8 +14,8 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
   ],
   shadcn: {
-    prefix: '',
-    componentDir: './components/ui'
+    prefix: "",
+    componentDir: "./components/ui",
   },
   tailwindcss: {
     cssPath: "@/assets/global.css",
@@ -36,29 +37,31 @@ export default defineNuxtConfig({
       { code: "sv", name: "Swedish" },
       { code: "zh_Hans", name: "Chinese (Simplified)" },
       { code: "zh_Hant", name: "Chinese (Traditional)" },
+      { code: "ar", name: "arabic" },
     ],
   },
   site: {
-    url: 'https://irisshaders.dev',
-    name: 'Iris',
-    description: 'The Iris Project',
+    url: "https://irisshaders.dev",
+    name: "Iris",
+    description: "The Iris Project",
   },
   ogImage: {
-    enabled: false
+    enabled: false,
   },
   sitemap: {
-    enabled: true
+    enabled: true,
   },
   robots: {
-    enabled: true
+    enabled: true,
   },
   seoExperiments: {
-    enabled: true
+    enabled: true,
   },
   schemaOrg: {
-    enabled: true
+    enabled: true,
   },
   linkChecker: {
-    enabled: false
-  }
+    enabled: false,
+  },
 });
+
