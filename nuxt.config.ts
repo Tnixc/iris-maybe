@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       { code: "sv", name: "Swedish" },
       { code: "zh_Hans", name: "Chinese (Simplified)" },
       { code: "zh_Hant", name: "Chinese (Traditional)" },
-      { code: "ar", name: "arabic" },
+      { code: "ar", name: "Arabic" },
     ],
   },
   site: {
